@@ -18,9 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
-
+~~~
+a = int(input())
+b = int(input())
+temp = a
+a = b
+b = temp
+print("Swapped values are: {} {}".format(a,b))
+~~~
+## OUTPUT:
+### Server side output
+![GitHubLogo](./images/ex1.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
